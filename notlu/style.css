@@ -1,2 +1,7 @@
 .hover-1{ background-color: aqua; width: 300px;height: 130px;}
 .hover-1:hover{ background-color: red; width: 300px;height: 180px;}
+.ordered-list-one{float: left;display: block; margin-right: 90px; font-family:Arial; margin-bottom: 20px; border-bottom: 0.1px solid;}
+.ordered-list-one:nth-child(2){ font-family:Arial; border: none;color: seagreen;}
+.interel{margin-top: 5px;}
+.rel{float: left; clear: both;}
+.interel::after{content:"******";font-size: 30px;display: block;color: red;text-align: initial;}

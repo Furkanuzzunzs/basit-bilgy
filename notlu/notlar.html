@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body><!-- these are the same, type="text" is the default -->
-    <input />
+<body>
+   
     <input type="text" />
     <input type="color" />
     <input type="file" />
@@ -14,21 +15,41 @@
     <input type="datetime-local" />
     <input type="radio" />
     <input type="checkbox" />
-    <table>
+    <table border="2" style="border-color: rgb(0, 0, 0); border-collapse: collapse;">
         <tbody>
-          <tr>
-            <td>(0,0)</td>
-            <td>(1,0)</td>
-          </tr>
-          <tr>
-            <td>(0,1)</td>
-            <td>(1,1)</td>
-          </tr>
+            <tr>
+                <td style="border: 2px solid black;">(0,0)</td>
+                <td style="border: 2px solid black;">(1,0)</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">(0,1)</td>
+                <td style="border: 2px solid black;">(1,1)</td>
+            </tr>
         </tbody>
-      </table>
-      <marquee>
+    </table>
+    <marquee>
         This is a really old feature that only works in some browsers. You should
         never use it for a real website.
-      </marquee>
+    </marquee>
+
+    <div class="rel">
+        <ol>
+            <li class="ordered-list-one">Liste</li>
+            <li class="ordered-list-one">Liste</li>
+            <li class="ordered-list-one">Liste</li>
+            <li class="ordered-list-one">Liste</li>
+            <li class="ordered-list-one">Liste</li>
+        </ol>
+        <br><br>
+    </div>
+    <div class="rel">
+        <ol>
+            <li class="interel">Liste</li>
+            <li class="interel">Liste</li>
+            <li class="interel">Liste</li>
+            <li class="interel">Liste</li>
+            <li class="interel">Liste</li>
+        </ol>
+    </div>
 </body>
 </html>
