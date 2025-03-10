@@ -4,4 +4,4 @@
 .ordered-list-one:nth-child(2){ font-family:Arial; border: none;color: seagreen;}
 .interel{margin-top: 5px;}
 .rel{float: left; clear: both;}
-.interel::after{content:"******";font-size: 30px;display: block;color: red;text-align: initial;}.interel::after{content:"******";font-size: 30px;display: block;color: blue;text-align: initial;}
+.interel::after{content:"******";font-size: 30px;display: block;color: blue;text-align: initial;}
